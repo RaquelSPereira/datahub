@@ -1,0 +1,6 @@
+
+CREATE TABLE CLIENT (
+  id SERIAL PRIMARY KEY,
+  name_client VARCHAR(255),
+  cpf_client VARCHAR(11)
+);
